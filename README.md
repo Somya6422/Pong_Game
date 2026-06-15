@@ -1,94 +1,81 @@
-# Pong Game - AI Edition
+# 🏓 Pong Game
 
-## Overview
-Pong Game - AI Edition is a desktop arcade game built with Python and Pygame. The project includes:
+Classic Pong Game built using Python Turtle
 
-- Single Player mode against an AI opponent
-- Local Multiplayer mode
-- Custom winning score selection
-- Interactive menu system
-- Score tracking and winner screen
-- Smooth paddle and ball movement
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen?style=for-the-badge)](https://github.com/Somya6422/Pong_Game/releases)
+
+---
+
+## About the Project
+
+This project is a classic arcade-style **Pong Game** built using **Python Turtle graphics**.
+
+Players control paddles to hit a ball back and forth. The objective is to score points by getting the ball past the opponent's paddle. This repository also includes an AI Edition where you can play against the computer!
+
+This project demonstrates:
+
+- Basic game development using Python
+- Keyboard event handling
+- Ball physics and collision detection
+- Score tracking
+- Simple GUI with Turtle graphics
+
+---
+
+## Platform
+
+The downloadable build provided in **Releases** is for:
+
+Windows operating system
+
+Download the ZIP file, extract it, and run the `.exe` file to start the game.
+
+---
+
+## Controls
+
+| Key | Action |
+| ---- | ------ |
+| **W** | Left Paddle Move Up |
+| **S** | Left Paddle Move Down |
+| **Up Arrow** | Right Paddle Move Up |
+| **Down Arrow** | Right Paddle Move Down |
+
+Note: If playing the AI edition, the computer handles one of the paddles!
+
+---
+
+## How to Play
+
+1. Download the latest version from the **Releases** section.
+2. Extract the ZIP file.
+3. Run the `.exe` file.
+4. Use the keyboard controls to move your paddle.
+5. Prevent the ball from passing your paddle.
+6. Score a point every time the ball passes your opponent.
+
+---
 
 ## Features
 
-### Single Player
-Play against a computer-controlled paddle that tracks the ball and reacts in real time.
+- Classic 2-player Pong gameplay
+- AI Edition (Play against the computer)
+- Real-time score tracking
+- Smooth paddle and ball movement
+- Paddle-ball collision physics
+- Simple and intuitive controls
 
-### Local Multiplayer
-Two players can compete on the same keyboard.
+---
 
-### Custom Winning Score
-Players can choose the target score before starting a match.
+## Run the Game from Source Code
 
-### Controls
+If you want to run the game directly from Python instead of the executable:
 
-#### Player 1
-- W → Move Up
-- S → Move Down
+### Requirements
 
-#### Player 2
-- Up Arrow → Move Up
-- Down Arrow → Move Down
+- Python 3.x
 
-#### General
-- ESC → Quit current game/application
-
-## Technologies Used
-
-- Python
-- Pygame
-
-## Installation
-
-1. Clone the repository
-2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the game
+### Run the game
 
 ```bash
 python "Pong Game.py"
-```
-
-## Build Executable
-
-Example using PyInstaller:
-
-```bash
-pyinstaller --onefile --windowed "Pong Game.py"
-```
-
-The executable will be generated inside the `dist` folder.
-
-## GitHub Release Download Button
-
-After creating a GitHub Release and uploading the executable:
-
-```markdown
-[![Download](https://img.shields.io/badge/Download-Windows%20Executable-blue?style=for-the-badge)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/releases/latest)
-```
-
-Replace:
-- YOUR_USERNAME
-- YOUR_REPOSITORY
-
-with your actual GitHub information.
-
-## Project Structure
-
-```
-.
-├── Pong Game.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
-```
-
-## Notes
-
-This project is intended as a beginner-friendly demonstration of game development using Python and Pygame.
